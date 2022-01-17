@@ -9,7 +9,11 @@ module.exports = {
       chainId: 1337
     },
     mumbai: {
-      url: "https://rpc-mumbai.matic.today",
+      url: "https://mainnet.infura.io/v3/${projectId}",
+      accounts: [privateKey]
+    },
+    mainnet:{
+      url: "https://mainnet.infura.io/v3/${projectId}", 
       accounts: [privateKey]
     }
   },
