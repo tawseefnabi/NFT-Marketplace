@@ -13,3 +13,5 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+step by step
+follow here [nader](https://www.youtube.com/watch?v=GKJBEEXUha0&list=RDCMUC7mca3O0DmdSG2Cr80sOD7g&start_radio=1&t=438s&ab_channel=NaderDabit)
