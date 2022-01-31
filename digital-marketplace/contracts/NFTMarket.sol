@@ -10,6 +10,9 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract NFTMarket is ReentrancyGuard {
   using Counters for Counters.Counter;
-    Counters.Counter private _itemIds;
-    Counters.Counter private _itemSold;
+  Counters.Counter private _itemIds;
+  Counters.Counter private _itemSold;
+
+  address payable owner;
+
 }
